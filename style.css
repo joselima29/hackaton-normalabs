@@ -1,0 +1,90 @@
+body {
+    font-family: roboto;
+    overflow-x: hidden;
+}
+container {
+    width: 90%;
+}
+header {
+    background-color: rgba(211, 211, 211, 0.349);
+}
+
+nav {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    display: inline;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(255, 113, 15);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+section img {
+    width: 100%;
+    padding-top: 50px;
+}
+.botao-sobre {
+    background-color: rgb(255, 113, 15);
+}
+a.btn.botao-sobre{
+    color: white;
+}
+
+.parceiras {
+    padding: 25px;
+    color: rgb(255, 113, 15);
+    text-align: center;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+footer {
+    padding-top: 50px;
+    bottom: 0;
+    position: relative;
+    width: 90%;
+    text-align: center;
+}
+.esp {
+    padding-top: 50px;
+}
+button.btn.btn-outline-primary{
+    background-color: rgb(255, 113, 15);
+    color: white;
+    border: none;
+}
+button.btn-lg.btn-block.btn-primary{
+    background-color: rgb(255, 113, 15);
+    color: white;
+    border: none;
+}
+button.btn.btn-primary {
+    background-color: rgb(255, 113, 15);
+    color: white;
+    border: none;
+}
+@media (max-width: 550px) {
+    nav {
+        visibility: hidden;
+    }
+    .logo {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 125px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
